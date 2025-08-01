@@ -3,9 +3,18 @@
 Sistema para gestão agrícola, facilitando o acompanhamento de processos, produtividade e informações relevantes para o agronegócio.
 
 ## Imagens
-
-Adicione aqui imagens, capturas de tela ou GIFs do sistema para ilustrar funcionalidades e interface.
-
+<p align="center">
+  <img width="400" alt="image1" src="https://github.com/user-attachments/assets/fbe2b031-971a-4169-b2a6-ec9fa5d75796" />
+</p>
+<p align="center">
+  <img width="400" alt="image2" src="https://github.com/user-attachments/assets/c3188a68-3a99-4802-b83d-49c8c1bd86d0" />
+</p>
+<p align="center">
+  <img width="400" alt="image3" src="https://github.com/user-attachments/assets/3824d2e6-6e52-4f70-a584-d193c8924a3b" />
+</p>
+<p align="center">
+  <img width="400" alt="image4" src="https://github.com/user-attachments/assets/909441d0-42cf-4985-b4a4-78947344b9fe" />
+</p>
 ## Instalação
 
 1. Clone o repositório:
@@ -39,26 +48,11 @@ Adicione aqui imagens, capturas de tela ou GIFs do sistema para ilustrar funcion
 
 Após iniciar o projeto, acesse `http://localhost:3000` no navegador para utilizar o AgroPulse.
 
-## Suporte
-
-Para dúvidas ou suporte, abra uma issue no repositório ou envie um e-mail para [seu-email@dominio.com].
-
 ## Roadmap
 
 - Dashboard de produtividade
-- Integração com sensores IoT
 - Relatórios customizados
 - Exportação de dados
-
-## Contribuição
-
-Contribuições são bem-vindas! Para contribuir:
-
-1. Fork este repositório
-2. Crie uma branch (`git checkout -b feature/nova-feature`)
-3. Faça commit das suas alterações (`git commit -m 'Adiciona nova feature'`)
-4. Faça push para a branch (`git push origin feature/nova-feature`)
-5. Abra um Pull Request
 
 ## Autores e agradecimentos
 
