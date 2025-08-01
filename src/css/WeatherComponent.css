@@ -1,0 +1,59 @@
+.weather-component-container {
+  background: linear-gradient(180deg, #a1ffce, #faffd1);
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 250px;
+  margin: 20px auto;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+#loader {
+  font-size: 18px;
+  color: #007bff;
+}
+
+#error-message {
+  color: #ff6b6b;
+  margin-bottom: 10px;
+}
+
+#weather-data h2,
+#weather-data p {
+  margin: 5px 0;
+}
+
+#city {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+}
+
+#temperature {
+  font-size: 48px;
+  color: #333;
+  margin: 10px 0;
+}
+
+#description {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+#weather-icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+#umidity, #wind {
+  font-size: 16px;
+  color: #333;
+}
+
+#umidity span, #wind span {
+  font-weight: bold;
+}

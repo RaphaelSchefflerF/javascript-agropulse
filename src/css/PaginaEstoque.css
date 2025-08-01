@@ -1,0 +1,116 @@
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 80%;
+  }
+  
+  .main-content {
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .botao-cor{
+    background-color: #194328;
+    color: #f0fed8;
+    border: #194328;
+  }
+
+  .botao-cor:hover {
+    background-color: #f0fed8;
+    border: #f0fed8;
+    color: black;
+  }
+  
+  .modal-content {
+    max-width: 90vh; 
+    margin: 20px auto;
+    background-color: #ffffff;
+    color: #333333;
+    transition: all 0.3s ease;
+  }
+  
+  .modal-header {
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .modal-footer {
+    border-top: 1px solid #dee2e6;
+  }
+  
+  .modal-title {
+    color: #007bff;
+  }
+  
+  .table-container {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  .search-bar-container {
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  
+  }
+  
+  .search-bar-container input {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f4f7fc;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  
+  .table-hover tbody tr:hover {
+    background-color: #eef5f9;
+  }
+  
+  .table {
+    border-collapse: separate;
+    border-spacing: 0 0.5em;
+  }
+  
+  .table td, .table th {
+    border: 1px solid #dee2e6;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05);
+  }
+  
+  .modal-content {
+    transition: transform 0.3s ease-out;
+  }
+  
+  .modal-backdrop.show {
+    opacity: 0.8;
+  }
+  
+  .btn, .form-control {
+    transition: all 0.2s ease-in-out;
+    border-radius: 5px;
+  }
+  
+  .btn:hover, .form-control:focus {
+    box-shadow: 0 0 8px rgba(33, 150, 243, 0.4);
+    transform: scale(1.02);
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .table-container {
+        overflow-x: auto;
+    }
+  }

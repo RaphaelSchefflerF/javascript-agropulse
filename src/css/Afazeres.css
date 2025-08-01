@@ -1,0 +1,77 @@
+.lista {
+    max-height: 100vh;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .lista li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+
+  }
+  
+  .editar,
+  .remover {
+    background-color: #eee657;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 3px;
+  }
+  
+  .remover {
+    background-color: #fc6042;
+  }
+  
+  .imagem {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .checkbox-tarefa {
+    width: 40px;
+    height: 40px;
+  }
+.Adicionar{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  .Adicionar input{
+    width: 1248px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  .Adicionar button{
+    width: 1248px;
+    margin-bottom: 4px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #194328;
+    color: #f0fed8;
+    border: #194328;
+    border-radius: 10px;
+  }
+  .Adicionar button:hover{
+    background-color: #f0fed8;
+    color: #194328;
+    border: #194328;
+    border-radius: 10px;
+  }

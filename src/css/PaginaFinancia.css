@@ -1,0 +1,140 @@
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.title-container {
+  text-align: center; 
+  margin-bottom: 10px; 
+}
+
+.data-selector-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.chart-container {
+  max-width: 300px;
+  margin: auto;
+  height: auto;
+}
+
+.chart-box {
+  max-width: 300px; 
+  margin: auto; 
+  height: auto;
+}
+
+.saldo-total {
+  text-align: center;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.botao-add{
+  background-color: #194328;
+  color: #f0fed8;
+  border: #194328;
+}
+
+.botao-add:hover {
+  background-color: #f0fed8;
+  border: #f0fed8;
+  color: black;
+}
+
+.modal-content {
+  max-width: 90vw; 
+  margin: 20px auto; 
+  color: #333333;
+  transition: all 0.3s ease;
+}
+
+.modal-header {
+  border-bottom: 1px solid #dee2e6;
+}
+
+.modal-footer {
+  border-top: 1px solid #dee2e6;
+}
+
+.modal-title {
+  color: #194328;
+}
+
+.table-container {
+  border-radius: 8px;
+}
+
+@media (max-width: 992px) {
+  .table-container, .search-bar-container {
+    font-size: 15px; 
+  }
+}
+
+@media (max-width: 768px) {
+  .table-container {
+    font-size: 14px;
+  }
+}
+
+.search-bar-container {
+  width: 100%;
+
+}
+
+.search-bar-container input {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #eef5f9;
+}
+
+.table td, .table th {
+  border: 1px solid #dee2e6;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05);
+}
+
+.modal-content {
+  transition: transform 0.3s ease-out;
+}
+
+.modal-backdrop.show {
+  opacity: 0.8;
+}
+
+.btn, .form-control {
+  transition: all 0.2s ease-in-out;
+  border-radius: 5px;
+}
+
+.btn:hover, .form-control:focus {
+  box-shadow: 0 0 8px rgba(33, 150, 243, 0.4);
+  transform: scale(1.02);
+}
+
+@media only screen and (max-width: 768px) {
+  .table-container {
+      overflow-x: auto;
+  }
+}

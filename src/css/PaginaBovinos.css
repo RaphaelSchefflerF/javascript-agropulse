@@ -1,0 +1,50 @@
+.main-content{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       height: 100%;
+}
+
+.listGroup{
+    align-items: center;
+    width: 90%;
+    box-shadow: 12px -3px 35px 8px rgba(143,143,143,0.58);
+    -webkit-box-shadow: 12px -3px 35px 8px rgba(143,143,143,0.58);
+    -moz-box-shadow: 12px -3px 35px 8px rgba(143,143,143,0.58);
+    border-radius: 20px;
+}
+
+.button-gado button {
+    margin-right: 10px;
+    background-color: #007bff; 
+    color: #fff; 
+    border: 1px solid #007bff;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 50%; 
+}
+
+.button-gado button:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.pastos{
+    padding-top: 10px;
+    padding-left: 100px;
+    width: 45%;
+    align-items: flex-end;
+}
+
+.Pesquisa{
+    margin-top: 20px;
+    margin: 50px;
+}
+.geral{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    width: 80%;
+    
+}
